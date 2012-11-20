@@ -1,0 +1,1 @@
+Started from scratch using part of the code of: https://github.com/KhaosT/CBPeripheralManager-Demo/
