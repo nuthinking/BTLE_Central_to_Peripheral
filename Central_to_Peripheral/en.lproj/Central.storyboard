@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="FsO-z5-02w">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Central View Controller-->
+        <scene sceneID="F6D-km-RaL">
+            <objects>
+                <viewController id="FsO-z5-02w" customClass="CentralViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dyy-ym-pLj">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DN3-I8-hlv">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DN3-I8-hlv" firstAttribute="trailing" secondItem="Dyy-ym-pLj" secondAttribute="trailing" type="default" id="Dai-DK-Mhc"/>
+                            <constraint firstItem="DN3-I8-hlv" firstAttribute="leading" secondItem="Dyy-ym-pLj" secondAttribute="leading" type="default" id="eyT-JP-olh"/>
+                            <constraint firstItem="DN3-I8-hlv" firstAttribute="bottom" secondItem="Dyy-ym-pLj" secondAttribute="bottom" type="default" id="hb4-aA-e4R"/>
+                            <constraint firstItem="DN3-I8-hlv" firstAttribute="top" secondItem="Dyy-ym-pLj" secondAttribute="top" type="default" id="qev-Nw-eT2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_logView" destination="DN3-I8-hlv" id="tMM-K4-c0w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRt-1d-SPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86" y="-84"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="BTViewControllerBase" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BTViewControllerBase.h"/>
+            <relationships>
+                <relationship kind="outlet" name="logView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="CentralViewController" superclassName="BTViewControllerBase">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CentralViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
