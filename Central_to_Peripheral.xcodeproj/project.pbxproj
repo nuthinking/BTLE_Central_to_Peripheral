@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB78CAB165E292600BE20F6 /* BTViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CA6165E292600BE20F6 /* BTViewControllerBase.m */; };
+		AAB78CAC165E292600BE20F6 /* BTViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CA6165E292600BE20F6 /* BTViewControllerBase.m */; };
+		AAB78CAD165E292600BE20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CA8165E292600BE20F6 /* AppDelegate.m */; };
+		AAB78CAE165E292600BE20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CA8165E292600BE20F6 /* AppDelegate.m */; };
+		AAB78CB2165E294000BE20F6 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CB0165E294000BE20F6 /* PeripheralViewController.m */; };
+		AAB78CB5165E294D00BE20F6 /* Peripheral.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CB3165E294D00BE20F6 /* Peripheral.storyboard */; };
+		AAB78CB8165E295B00BE20F6 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CB6165E295B00BE20F6 /* CentralViewController.m */; };
+		AAB78CBB165E296400BE20F6 /* Central.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CB9165E296400BE20F6 /* Central.storyboard */; };
+		AAB78CC1165E298E00BE20F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CBD165E298E00BE20F6 /* main.m */; };
+		AAB78CC2165E298E00BE20F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB78CBD165E298E00BE20F6 /* main.m */; };
+		AAB78CC3165E298E00BE20F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CBE165E298E00BE20F6 /* Default-568h@2x.png */; };
+		AAB78CC4165E298E00BE20F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CBE165E298E00BE20F6 /* Default-568h@2x.png */; };
+		AAB78CC5165E298E00BE20F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CBF165E298E00BE20F6 /* Default.png */; };
+		AAB78CC6165E298E00BE20F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CBF165E298E00BE20F6 /* Default.png */; };
+		AAB78CC7165E298E00BE20F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CC0165E298E00BE20F6 /* Default@2x.png */; };
+		AAB78CC8165E298E00BE20F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CC0165E298E00BE20F6 /* Default@2x.png */; };
+		AAB78CCB165E29B100BE20F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CC9165E29B100BE20F6 /* InfoPlist.strings */; };
+		AAB78CCC165E29B100BE20F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CC9165E29B100BE20F6 /* InfoPlist.strings */; };
+		AAB78CCE165E29C100BE20F6 /* MD_Peripheral.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB78CCD165E29C100BE20F6 /* MD_Peripheral.plist */; };
 		AAD9D38F1653C5AD00A37F4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D38E1653C5AD00A37F4A /* UIKit.framework */; };
 		AAD9D3911653C5AD00A37F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D3901653C5AD00A37F4A /* Foundation.framework */; };
 		AAD9D3931653C5AD00A37F4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D3921653C5AD00A37F4A /* CoreGraphics.framework */; };
@@ -15,29 +34,28 @@
 		AAEE1E8016540A7500B6C45E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D38E1653C5AD00A37F4A /* UIKit.framework */; };
 		AAEE1E8116540A7500B6C45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D3901653C5AD00A37F4A /* Foundation.framework */; };
 		AAEE1E8216540A7500B6C45E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9D3921653C5AD00A37F4A /* CoreGraphics.framework */; };
-		AAEFDBD0165B0664008B9921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBCC165B0664008B9921 /* main.m */; };
-		AAEFDBD1165B0664008B9921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBCC165B0664008B9921 /* main.m */; };
-		AAEFDBD2165B0664008B9921 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCD165B0664008B9921 /* Default-568h@2x.png */; };
-		AAEFDBD3165B0664008B9921 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCD165B0664008B9921 /* Default-568h@2x.png */; };
-		AAEFDBD4165B0664008B9921 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCE165B0664008B9921 /* Default.png */; };
-		AAEFDBD5165B0664008B9921 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCE165B0664008B9921 /* Default.png */; };
-		AAEFDBD6165B0664008B9921 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCF165B0664008B9921 /* Default@2x.png */; };
-		AAEFDBD7165B0664008B9921 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBCF165B0664008B9921 /* Default@2x.png */; };
 		AAEFDBD9165B0664008B9921 /* MD_Central.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAEE1E8E16540A7500B6C45E /* MD_Central.plist */; };
-		AAEFDBDB165B067B008B9921 /* MD_Peripheral.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBDA165B067B008B9921 /* MD_Peripheral.plist */; };
-		AAEFDBE1165B06AB008B9921 /* BTViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBDC165B06AB008B9921 /* BTViewControllerBase.m */; };
-		AAEFDBE2165B06AB008B9921 /* BTViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBDC165B06AB008B9921 /* BTViewControllerBase.m */; };
-		AAEFDBE3165B06AB008B9921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBDE165B06AB008B9921 /* AppDelegate.m */; };
-		AAEFDBE4165B06AB008B9921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBDE165B06AB008B9921 /* AppDelegate.m */; };
-		AAEFDBE7165B06D2008B9921 /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBE5165B06D2008B9921 /* PeripheralViewController.m */; };
-		AAEFDBEA165B06F9008B9921 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEFDBE8165B06F9008B9921 /* CentralViewController.m */; };
-		AAEFDBF2165B075E008B9921 /* Peripheral.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBEE165B075E008B9921 /* Peripheral.storyboard */; };
-		AAEFDBF8165B07D1008B9921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBF6165B07D1008B9921 /* InfoPlist.strings */; };
-		AAEFDBF9165B08BE008B9921 /* Central.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBEC165B075E008B9921 /* Central.storyboard */; };
-		AAEFDBFA165B08D2008B9921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAEFDBF6165B07D1008B9921 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAB78CA6165E292600BE20F6 /* BTViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewControllerBase.m; sourceTree = "<group>"; };
+		AAB78CA7165E292600BE20F6 /* BTViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewControllerBase.h; sourceTree = "<group>"; };
+		AAB78CA8165E292600BE20F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB78CA9165E292600BE20F6 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		AAB78CAA165E292600BE20F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB78CB0165E294000BE20F6 /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		AAB78CB1165E294000BE20F6 /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		AAB78CB4165E294D00BE20F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Peripheral.storyboard; sourceTree = "<group>"; };
+		AAB78CB6165E295B00BE20F6 /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		AAB78CB7165E295B00BE20F6 /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		AAB78CBA165E296400BE20F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Central.storyboard; sourceTree = "<group>"; };
+		AAB78CBC165E298E00BE20F6 /* Central_to_Peripheral-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Central_to_Peripheral-Prefix.pch"; sourceTree = "<group>"; };
+		AAB78CBD165E298E00BE20F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB78CBE165E298E00BE20F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAB78CBF165E298E00BE20F6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAB78CC0165E298E00BE20F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAB78CCA165E29B100BE20F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAB78CCD165E29C100BE20F6 /* MD_Peripheral.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MD_Peripheral.plist; sourceTree = "<group>"; };
 		AAD9D38A1653C5AD00A37F4A /* Peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD9D38E1653C5AD00A37F4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAD9D3901653C5AD00A37F4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,24 +63,6 @@
 		AAD9D3B11653C5C900A37F4A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		AAEE1E8C16540A7500B6C45E /* MD_Central.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MD_Central.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEE1E8E16540A7500B6C45E /* MD_Central.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MD_Central.plist; path = "/Users/christian/personal/magic-paper/app/code/MD_Peripheral_iOS/MD_Central.plist"; sourceTree = "<absolute>"; };
-		AAEFDBCB165B0664008B9921 /* Central_to_Peripheral-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Central_to_Peripheral-Prefix.pch"; path = "Central_to_Peripheral/Central_to_Peripheral-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		AAEFDBCC165B0664008B9921 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Central_to_Peripheral/main.m; sourceTree = SOURCE_ROOT; };
-		AAEFDBCD165B0664008B9921 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Central_to_Peripheral/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		AAEFDBCE165B0664008B9921 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Central_to_Peripheral/Default.png; sourceTree = SOURCE_ROOT; };
-		AAEFDBCF165B0664008B9921 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Central_to_Peripheral/Default@2x.png"; sourceTree = SOURCE_ROOT; };
-		AAEFDBDA165B067B008B9921 /* MD_Peripheral.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MD_Peripheral.plist; path = Central_to_Peripheral/MD_Peripheral.plist; sourceTree = SOURCE_ROOT; };
-		AAEFDBDC165B06AB008B9921 /* BTViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTViewControllerBase.m; path = Central_to_Peripheral/BTViewControllerBase.m; sourceTree = SOURCE_ROOT; };
-		AAEFDBDD165B06AB008B9921 /* BTViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTViewControllerBase.h; path = Central_to_Peripheral/BTViewControllerBase.h; sourceTree = SOURCE_ROOT; };
-		AAEFDBDE165B06AB008B9921 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Central_to_Peripheral/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		AAEFDBDF165B06AB008B9921 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Central_to_Peripheral/Settings.h; sourceTree = SOURCE_ROOT; };
-		AAEFDBE0165B06AB008B9921 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Central_to_Peripheral/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		AAEFDBE5165B06D2008B9921 /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeripheralViewController.m; path = Central_to_Peripheral/PeripheralViewController.m; sourceTree = SOURCE_ROOT; };
-		AAEFDBE6165B06D2008B9921 /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeripheralViewController.h; path = Central_to_Peripheral/PeripheralViewController.h; sourceTree = SOURCE_ROOT; };
-		AAEFDBE8165B06F9008B9921 /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CentralViewController.m; path = Central_to_Peripheral/CentralViewController.m; sourceTree = SOURCE_ROOT; };
-		AAEFDBE9165B06F9008B9921 /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CentralViewController.h; path = Central_to_Peripheral/CentralViewController.h; sourceTree = SOURCE_ROOT; };
-		AAEFDBED165B075E008B9921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Central_to_Peripheral/en.lproj/Central.storyboard; sourceTree = SOURCE_ROOT; };
-		AAEFDBEF165B075E008B9921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Central_to_Peripheral/en.lproj/Peripheral.storyboard; sourceTree = SOURCE_ROOT; };
-		AAEFDBF7165B07D1008B9921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Central_to_Peripheral/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +123,11 @@
 		AAD9D3941653C5AD00A37F4A /* Central_to_Peripheral */ = {
 			isa = PBXGroup;
 			children = (
-				AAEFDBDF165B06AB008B9921 /* Settings.h */,
-				AAEFDBE0165B06AB008B9921 /* AppDelegate.h */,
-				AAEFDBDE165B06AB008B9921 /* AppDelegate.m */,
-				AAEFDBDD165B06AB008B9921 /* BTViewControllerBase.h */,
-				AAEFDBDC165B06AB008B9921 /* BTViewControllerBase.m */,
+				AAB78CA6165E292600BE20F6 /* BTViewControllerBase.m */,
+				AAB78CA7165E292600BE20F6 /* BTViewControllerBase.h */,
+				AAB78CA8165E292600BE20F6 /* AppDelegate.m */,
+				AAB78CA9165E292600BE20F6 /* Settings.h */,
+				AAB78CAA165E292600BE20F6 /* AppDelegate.h */,
 				AAEFDBF4165B077B008B9921 /* Peripheral */,
 				AAEFDBF5165B07A2008B9921 /* Central */,
 				AAD9D3951653C5AD00A37F4A /* Supporting Files */,
@@ -139,13 +139,13 @@
 		AAD9D3951653C5AD00A37F4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAEFDBF6165B07D1008B9921 /* InfoPlist.strings */,
-				AAEFDBDA165B067B008B9921 /* MD_Peripheral.plist */,
-				AAEFDBCB165B0664008B9921 /* Central_to_Peripheral-Prefix.pch */,
-				AAEFDBCC165B0664008B9921 /* main.m */,
-				AAEFDBCD165B0664008B9921 /* Default-568h@2x.png */,
-				AAEFDBCE165B0664008B9921 /* Default.png */,
-				AAEFDBCF165B0664008B9921 /* Default@2x.png */,
+				AAB78CCD165E29C100BE20F6 /* MD_Peripheral.plist */,
+				AAB78CC9165E29B100BE20F6 /* InfoPlist.strings */,
+				AAB78CBC165E298E00BE20F6 /* Central_to_Peripheral-Prefix.pch */,
+				AAB78CBD165E298E00BE20F6 /* main.m */,
+				AAB78CBE165E298E00BE20F6 /* Default-568h@2x.png */,
+				AAB78CBF165E298E00BE20F6 /* Default.png */,
+				AAB78CC0165E298E00BE20F6 /* Default@2x.png */,
 				AAEE1E8E16540A7500B6C45E /* MD_Central.plist */,
 			);
 			name = "Supporting Files";
@@ -154,9 +154,9 @@
 		AAEFDBF4165B077B008B9921 /* Peripheral */ = {
 			isa = PBXGroup;
 			children = (
-				AAEFDBEE165B075E008B9921 /* Peripheral.storyboard */,
-				AAEFDBE6165B06D2008B9921 /* PeripheralViewController.h */,
-				AAEFDBE5165B06D2008B9921 /* PeripheralViewController.m */,
+				AAB78CB3165E294D00BE20F6 /* Peripheral.storyboard */,
+				AAB78CB1165E294000BE20F6 /* PeripheralViewController.h */,
+				AAB78CB0165E294000BE20F6 /* PeripheralViewController.m */,
 			);
 			name = Peripheral;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 		AAEFDBF5165B07A2008B9921 /* Central */ = {
 			isa = PBXGroup;
 			children = (
-				AAEFDBEC165B075E008B9921 /* Central.storyboard */,
-				AAEFDBE9165B06F9008B9921 /* CentralViewController.h */,
-				AAEFDBE8165B06F9008B9921 /* CentralViewController.m */,
+				AAB78CB9165E296400BE20F6 /* Central.storyboard */,
+				AAB78CB6165E295B00BE20F6 /* CentralViewController.m */,
+				AAB78CB7165E295B00BE20F6 /* CentralViewController.h */,
 			);
 			name = Central;
 			sourceTree = "<group>";
@@ -240,12 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEFDBD2165B0664008B9921 /* Default-568h@2x.png in Resources */,
-				AAEFDBD4165B0664008B9921 /* Default.png in Resources */,
-				AAEFDBD6165B0664008B9921 /* Default@2x.png in Resources */,
-				AAEFDBDB165B067B008B9921 /* MD_Peripheral.plist in Resources */,
-				AAEFDBF2165B075E008B9921 /* Peripheral.storyboard in Resources */,
-				AAEFDBF8165B07D1008B9921 /* InfoPlist.strings in Resources */,
+				AAB78CB5165E294D00BE20F6 /* Peripheral.storyboard in Resources */,
+				AAB78CC3165E298E00BE20F6 /* Default-568h@2x.png in Resources */,
+				AAB78CC5165E298E00BE20F6 /* Default.png in Resources */,
+				AAB78CC7165E298E00BE20F6 /* Default@2x.png in Resources */,
+				AAB78CCB165E29B100BE20F6 /* InfoPlist.strings in Resources */,
+				AAB78CCE165E29C100BE20F6 /* MD_Peripheral.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEFDBFA165B08D2008B9921 /* InfoPlist.strings in Resources */,
-				AAEFDBF9165B08BE008B9921 /* Central.storyboard in Resources */,
-				AAEFDBD3165B0664008B9921 /* Default-568h@2x.png in Resources */,
-				AAEFDBD5165B0664008B9921 /* Default.png in Resources */,
-				AAEFDBD7165B0664008B9921 /* Default@2x.png in Resources */,
 				AAEFDBD9165B0664008B9921 /* MD_Central.plist in Resources */,
+				AAB78CBB165E296400BE20F6 /* Central.storyboard in Resources */,
+				AAB78CC4165E298E00BE20F6 /* Default-568h@2x.png in Resources */,
+				AAB78CC6165E298E00BE20F6 /* Default.png in Resources */,
+				AAB78CC8165E298E00BE20F6 /* Default@2x.png in Resources */,
+				AAB78CCC165E29B100BE20F6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEFDBD0165B0664008B9921 /* main.m in Sources */,
-				AAEFDBE1165B06AB008B9921 /* BTViewControllerBase.m in Sources */,
-				AAEFDBE3165B06AB008B9921 /* AppDelegate.m in Sources */,
-				AAEFDBE7165B06D2008B9921 /* PeripheralViewController.m in Sources */,
+				AAB78CAB165E292600BE20F6 /* BTViewControllerBase.m in Sources */,
+				AAB78CAD165E292600BE20F6 /* AppDelegate.m in Sources */,
+				AAB78CB2165E294000BE20F6 /* PeripheralViewController.m in Sources */,
+				AAB78CC1165E298E00BE20F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,36 +280,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEFDBD1165B0664008B9921 /* main.m in Sources */,
-				AAEFDBE2165B06AB008B9921 /* BTViewControllerBase.m in Sources */,
-				AAEFDBE4165B06AB008B9921 /* AppDelegate.m in Sources */,
-				AAEFDBEA165B06F9008B9921 /* CentralViewController.m in Sources */,
+				AAB78CAC165E292600BE20F6 /* BTViewControllerBase.m in Sources */,
+				AAB78CAE165E292600BE20F6 /* AppDelegate.m in Sources */,
+				AAB78CB8165E295B00BE20F6 /* CentralViewController.m in Sources */,
+				AAB78CC2165E298E00BE20F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AAEFDBEC165B075E008B9921 /* Central.storyboard */ = {
+		AAB78CB3165E294D00BE20F6 /* Peripheral.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AAEFDBED165B075E008B9921 /* en */,
-			);
-			name = Central.storyboard;
-			sourceTree = "<group>";
-		};
-		AAEFDBEE165B075E008B9921 /* Peripheral.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AAEFDBEF165B075E008B9921 /* en */,
+				AAB78CB4165E294D00BE20F6 /* en */,
 			);
 			name = Peripheral.storyboard;
 			sourceTree = "<group>";
 		};
-		AAEFDBF6165B07D1008B9921 /* InfoPlist.strings */ = {
+		AAB78CB9165E296400BE20F6 /* Central.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AAEFDBF7165B07D1008B9921 /* en */,
+				AAB78CBA165E296400BE20F6 /* en */,
+			);
+			name = Central.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB78CC9165E29B100BE20F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB78CCA165E29B100BE20F6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
