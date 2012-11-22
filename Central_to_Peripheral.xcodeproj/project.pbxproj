@@ -371,8 +371,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Central_to_Peripheral/Central_to_Peripheral-Prefix.pch";
-				INFOPLIST_FILE = Central_to_Peripheral/MD_Peripheral.plist;
+				GCC_PREFIX_HEADER = "MD_Peripheral_iOS/Central_to_Peripheral-Prefix.pch";
+				INFOPLIST_FILE = MD_Peripheral_iOS/MD_Peripheral.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,8 +382,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Central_to_Peripheral/Central_to_Peripheral-Prefix.pch";
-				INFOPLIST_FILE = Central_to_Peripheral/MD_Peripheral.plist;
+				GCC_PREFIX_HEADER = "MD_Peripheral_iOS/Central_to_Peripheral-Prefix.pch";
+				INFOPLIST_FILE = MD_Peripheral_iOS/MD_Peripheral.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,7 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Central_to_Peripheral/Central_to_Peripheral-Prefix.pch";
+				GCC_PREFIX_HEADER = "MD_Peripheral_iOS/Central_to_Peripheral-Prefix.pch";
 				INFOPLIST_FILE = MD_Central.plist;
 				PRODUCT_NAME = MD_Central;
 				WRAPPER_EXTENSION = app;
@@ -404,7 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Central_to_Peripheral/Central_to_Peripheral-Prefix.pch";
+				GCC_PREFIX_HEADER = "MD_Peripheral_iOS/Central_to_Peripheral-Prefix.pch";
 				INFOPLIST_FILE = MD_Central.plist;
 				PRODUCT_NAME = MD_Central;
 				WRAPPER_EXTENSION = app;
